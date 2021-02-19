@@ -68,6 +68,7 @@ function updatePostedDisplay(data) {
 
 titleText = "Caecillius est in horto"
 bodyText = "Cerberus est canis.\nMetella est in culina."
+
 getPostedData(titleText, bodyText)
   .then(data => {
     updatePostedDisplay(data)
